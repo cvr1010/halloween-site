@@ -1,0 +1,107 @@
+ body {
+
+             background-size: cover;
+            
+             background-position: center;
+    
+            height: 100vh;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+
+        }
+
+        .container {
+
+           background-color: rgba(0, 0, 0, 0.5);
+
+            text-align: center;
+
+            width: 75%;
+
+            margin: 0 auto;
+
+            box-sizing: border-box;
+
+
+            justify-content: center;
+
+        }
+
+
+        .child {
+
+              padding: 20px;
+              
+                background-size: cover;
+            
+              background-position: center;
+    
+            
+
+         }
+
+          
+
+        h1 {
+
+           font-family: "Trirong", serif;
+
+            color: white;
+
+            margin-top: 0;
+
+            margin-bottom: 10px;
+
+             
+
+        }
+
+        .author {
+            font-family: "Trirong", serif;
+
+            color: white;
+
+            text-align: center;
+
+            font-style: italic;
+
+            margin-top: 0;
+
+            margin-bottom: 40px;
+
+            font-size: 1em;
+
+        }
+
+
+       
+
+
+        .poem {
+
+            font-family: "Josefin Sans", sans-serif;
+
+            color: white;
+
+            line-height: 1.8;
+
+    
+
+        
+@media (max-width: 600px) {
+    h1 {
+        font-size: 4em;
+    }
+    .poem {
+
+        font-size: 2em;
+    }
+    .author{
+
+        font-size:3em;
+    }
